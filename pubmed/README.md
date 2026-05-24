@@ -56,7 +56,7 @@ The server will automatically load it from `~/.env` if present.
 
 ```bash
 # If installed via pip
-pubmed-mcp
+suppevo-pubmed-mcp
 
 # Or run directly with FastMCP
 fastmcp run server.py

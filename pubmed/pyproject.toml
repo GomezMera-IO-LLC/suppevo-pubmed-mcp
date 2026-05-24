@@ -1,6 +1,6 @@
 [project]
 name = "suppevo-pubmed-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP server for PubMed/NCBI E-utilities API — search, fetch, and verify citations"
 requires-python = ">=3.11"
 authors = [
@@ -29,7 +29,7 @@ Repository = "https://github.com/gomezmera/suppevo-pubmed-mcp"
 Issues = "https://github.com/gomezmera/suppevo-pubmed-mcp/issues"
 
 [project.scripts]
-pubmed-mcp = "server:main"
+suppevo-pubmed-mcp = "server:main"
 
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
