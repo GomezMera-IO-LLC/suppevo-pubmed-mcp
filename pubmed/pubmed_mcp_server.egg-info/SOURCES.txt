@@ -1,8 +1,0 @@
-pyproject.toml
-server.py
-pubmed_mcp_server.egg-info/PKG-INFO
-pubmed_mcp_server.egg-info/SOURCES.txt
-pubmed_mcp_server.egg-info/dependency_links.txt
-pubmed_mcp_server.egg-info/entry_points.txt
-pubmed_mcp_server.egg-info/requires.txt
-pubmed_mcp_server.egg-info/top_level.txt

@@ -1,12 +1,39 @@
 [project]
-name = "pubmed-mcp-server"
+name = "suppevo-pubmed-mcp"
 version = "1.0.0"
 description = "MCP server for PubMed/NCBI E-utilities API — search, fetch, and verify citations"
 requires-python = ">=3.11"
+authors = [
+    { name = "Carlos Gomez" },
+]
+readme = "README.md"
+license = "MIT"
+keywords = ["mcp", "pubmed", "ncbi", "biomedical", "literature", "citations"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
 dependencies = [
     "fastmcp>=2.0.0",
     "httpx>=0.27",
 ]
 
+[project.urls]
+Homepage = "https://github.com/gomezmera/suppevo-pubmed-mcp"
+Repository = "https://github.com/gomezmera/suppevo-pubmed-mcp"
+Issues = "https://github.com/gomezmera/suppevo-pubmed-mcp/issues"
+
 [project.scripts]
 pubmed-mcp = "server:main"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["server"]
