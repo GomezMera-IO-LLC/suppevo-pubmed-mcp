@@ -1,0 +1,2 @@
+[console_scripts]
+pubmed-mcp = server:main
